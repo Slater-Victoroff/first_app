@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Brand:</b>
+  <%= @sizing.brand %>
+</p>
+
+<p>
+  <b>Sizing:</b>
+  <%= @sizing.sizing %>
+</p>
+
+<p>
+  <b>Bust:</b>
+  <%= @sizing.bust %>
+</p>
+
+<p>
+  <b>Waist:</b>
+  <%= @sizing.waist %>
+</p>
+
+<p>
+  <b>Hips:</b>
+  <%= @sizing.hips %>
+</p>
+
+
+<%= link_to 'Edit', edit_sizing_path(@sizing) %> |
+<%= link_to 'Back', sizings_path %>
