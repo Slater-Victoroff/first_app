@@ -1,3 +1,3 @@
 class Sizing < ActiveRecord::Base
-  attr_accessible :brand, :bust, :hips, :sizing, :waist
+  attr_accessible :brand, :bust, :hips, :size, :wasit
 end

@@ -3,9 +3,9 @@
 <table>
   <tr>
     <th>Brand</th>
-    <th>Sizing</th>
+    <th>Size</th>
     <th>Bust</th>
-    <th>Waist</th>
+    <th>Wasit</th>
     <th>Hips</th>
     <th></th>
     <th></th>
@@ -15,9 +15,9 @@
 <% @sizings.each do |sizing| %>
   <tr>
     <td><%= sizing.brand %></td>
-    <td><%= sizing.sizing %></td>
+    <td><%= sizing.size %></td>
     <td><%= sizing.bust %></td>
-    <td><%= sizing.waist %></td>
+    <td><%= sizing.wasit %></td>
     <td><%= sizing.hips %></td>
     <td><%= link_to 'Show', sizing %></td>
     <td><%= link_to 'Edit', edit_sizing_path(sizing) %></td>
